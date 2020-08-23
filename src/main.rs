@@ -6,8 +6,6 @@
 
 extern crate alloc;
 
-extern crate rlibc;
-
 use core::panic::PanicInfo;
 use mik_os::println;
 use bootloader::{BootInfo, entry_point};
