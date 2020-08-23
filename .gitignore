@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+.emacs.desktop
+.emacs.desktop.lock
+.fslckout
+.repo
+**/*~
