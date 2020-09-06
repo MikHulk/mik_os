@@ -5,12 +5,14 @@
 #![feature(abi_x86_interrupt)]
 #![feature(alloc_error_handler)]
 #![feature(const_fn)]
+#![feature(const_in_array_repeat_expressions)]
 
 #![cfg_attr(test, no_main)]
 #![test_runner(crate::test_runner)]
 #![reexport_test_harness_main = "test_main"]
 
 extern crate alloc;
+extern crate rlibc;
 
 pub mod serial;
 pub mod vga_buffer;
